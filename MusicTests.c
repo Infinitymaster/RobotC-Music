@@ -11,7 +11,7 @@ task main {
 	PlayTune(solfeggietto7);
 	PlayTune(solfeggietto8);
 	PlayTune(solfeggietto9);
-	*/delay(5000);
+	delay(5000);
 	PlayTune(czardas1);
 	PlayTune(czardas1);
 	PlayTune(czardas2);
