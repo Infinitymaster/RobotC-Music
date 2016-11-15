@@ -29,6 +29,15 @@
  *		'R' = forte
  */
 
+//Keep in mind for this book, RobotC strings have maximum length of 20 characters
+string book[] = {"badinerie", "solfegietto", "czardas"};
+
+//Badinerie, by Johann Sebastian Back, in 4 parts (1&2 repeat, then 3&4 repeat)
+char* badinerie1 = "Qs6B.7D6Bf.BfD.fD5q_BsfB6D5B6c5B6c5Ba6cEcrD5Bs6B.7D6Bf.BfD.fD5q_B6sD.D.D.D.B.D.DtEDrcsf.f.f.f.7D.6f.ftGfrF";
+char* badinerie2 = "Qs6cfAfgfgfFgBgAgAgfAfFfBfFf7c6fFf7D6fFf7DRc6B7c6AgfrAsgtAgqf";
+char* badinerie3 = "Rs6f.Afc.fc5A.6c5Aq_fQr6C5B6EsdfrAsGfrGERsG.7D6GE.GEc.Ec5qAsA6DfDEDEDcEGEfEfEQDfDcDGDcDADcDBDcDBRAGAfEDrfsEtfEqDs6f.f.f.f.";
+char* badinerie4 = "R7D.5f.ftGfrEsE.E.E.E.7c.6E.EtfErDsQB.7D6BtAqGsGtGBAGfqErEtGfEDsCEGEC5B6C5RBa.f.rGfQBsa6crEsDcrDt5B6cDErfsRDfrBfsEDcDtcq5B";
+
 //Solfeggietto, by Carl Philipp Emanuel Bach, in 9 parts
 char* solfeggietto1 = "tQ4dCdG5CdDC4BGB5DGFdD_dCdG6CdDCDC5BAGFdD_dCdG6CdDC5BGB6DGFdD_dCdG7CdDCDC6BAGFdD_";
 char* solfeggietto2 = "tQ6dC5GdC7C6Gdg4Fg5CFg6Cd_D5aFD4a6aFDG4dGa5dGa6D_C5AgA6C5AgA6dC5GA6dC5GA_6DC5fA6AC5fA6fC5DA6C5AfC_";
@@ -46,9 +55,3 @@ char* czardas2 = "Ot6C5B6CEGaGEC5B6CEGaGE5aAa6CPDEFGQrA-Ot5AgA6cEGEc5AgA6cEGEc5A
 char* czardas3 = "Ot6aAGAaAGAaAGAaAGaPAGFGAGFGAGFGAGFA5AB6cDEFGAQaAGFEDcEsErRDsQcrD-";
 char* czardas4 = "Rt5D6f7rD6sAtA/AsBAGffEtEdEGqBQsBtB/csc7EEtE/6GsGGt5DA6sGftfEDErfsf/AR5tD6f7rD6sAtA/AsBAGffEtEdEGqBr7D6tAsAABAAcQrEDDcqD,";
 char* czardas5 = "Oq8Dr7A.sArBAGffEEGpBrB.sArAA8c7BAGGffFqfA8D7rA.sArBAGffEEGpB8qDr7AABAAqcEDDcoD+";
-
-//Badinerie, by Johann Sebastian Back, in 4 parts (1&2 repeat, then 3&4 repeat)
-char* badinerie1 = "Qs6B.7D6Bf.BfD.fD5q_BsfB6D5B6c5B6c5Ba6cEcrD5Bs6B.7D6Bf.BfD.fD5q_B6sD.D.D.D.B.D.DtEDrcsf.f.f.f.7D.6f.ftGfrF";
-char* badinerie2 = "Qs6cfAfgfgfFgBgAgAgfAfFfBfFf7c6fFf7D6fFf7DRc6B7c6AgfrAsgtAgqf";
-char* badinerie3 = "Rs6f.Afc.fc5A.6c5Aq_fQr6C5B6EsdfrAsGfrGERsG.7D6GE.GEc.Ec5qAsA6DfDEDEDcEGEfEfEQDfDcDGDcDADcDBDcDBRAGAfEDrfsEtfEqDs6f.f.f.f.";
-char* badinerie4 = "R7D.5f.ftGfrEsE.E.E.E.7c.6E.EtfErDsQB.7D6BtAqGsGtGBAGfqErEtGfEDsCEGEC5B6C5RBa.f.rGfQBsa6crEsDcrDt5B6cDErfsRDfrBfsEDcDtcq5B";
