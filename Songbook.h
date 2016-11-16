@@ -30,7 +30,7 @@
  */
 
 //Keep in mind for this book, RobotC strings have maximum length of 20 characters
-string book[] = {"badinerie", "solfegietto", "czardas"};
+string book[] = {"badinerie", "solfegietto", "czardas", "bumblebee"};
 
 //Badinerie, by Johann Sebastian Back, in 4 parts (1&2 repeat, then 3&4 repeat)
 char* badinerie1 = "Qs6B.7D6Bf.BfD.fD5q_BsfB6D5B6c5B6c5Ba6cEcrD5Bs6B.7D6Bf.BfD.fD5q_B6sD.D.D.D.B.D.DtEDrcsf.f.f.f.7D.6f.ftGfrF";
@@ -55,3 +55,18 @@ char* czardas2 = "Ot6C5B6CEGaGEC5B6CEGaGE5aAa6CPDEFGQrA-Ot5AgA6cEGEc5AgA6cEGEc5A
 char* czardas3 = "Ot6aAGAaAGAaAGAaAGaPAGFGAGFGAGFGAGFA5AB6cDEFGAQaAGFEDcEsErRDsQcrD-";
 char* czardas4 = "Rt5D6f7rD6sAtA/AsBAGffEtEdEGqBQsBtB/csc7EEtE/6GsGGt5DA6sGftfEDErfsf/AR5tD6f7rD6sAtA/AsBAGffEtEdEGqBr7D6tAsAABAAcQrEDDcqD,";
 char* czardas5 = "Oq8Dr7A.sArBAGffEEGpBrB.sArAA8c7BAGGffFqfA8D7rA.sArBAGffEEGpB8qDr7AABAAqcEDDcoD+";
+
+//Flight of the Bumblebee, by Nicolai Rimsky-Korsakov,, transcribed by Evan Minsk
+char *bumblebee1  = "tR6 EdDcDcC5B 6C5BaAgGfF QEdDcDcC4B 5C4BaAgGfF tP4EdDcDcC3B 4EdDcDcC3B O4EdDcCFEd  EdDcCcDd"; //m1-8
+char *bumblebee2  = "tO4 EdDcCFEd   EdDcCcDd  EdDcDcC3B  4CcDdEFEd tO4EdDcDcC3B 4CcDdEfGg  AgGfFaAg  AgGfFfGg"; //m9-16
+char *bumblebee3  = "tO4 AgGfFaAg   AgGfFfGg  AgGfGfFE    FfGgAaAg tO4AgGfGfFE   FfGgAaAg  sA.rA  Paa OrAA";  //m17-25
+char *bumblebee4  = "qP4 a    tO AaAgAaAg  PAaAgAaAg QAaB5CcC4Ba AaB5CcPC4Ba sP4A.r5D  QtcdcPdcdOcd PrDD QtcdcPdcdOcd"; //m26-34
+char *bumblebee5  = "tO5 DdDcDdDc PDdDcDdDc QDdEFfFEd  PDdEFfFEd tO5DcC4Ba5dDc DcC4BaB5Cc DcC4B5C4BaA aB5CcPCcDd"; //m35-42
+char *bumblebee6 = "tQ6 EdDcDcC5B 6C5BaAPgGfF EFEdEFEd EFEdEFEd EFEdEFEd tP5EFEdEFEd sE.-    ,      -EC 4AFA5C"; //m44-52
+char *bumblebee7 = "rP5 EsEC    4AFA5C   rE-  4tCcDdEFfG  gAaB5CcDd tP5EFEdEFEd OEdDcCFEd  EdDcCcDd   EdDcCFEd   EdDcCcDd"; //m54-62
+char *bumblebee8 = "tP5 EdDcDcC4B  5CcDdEFEd  EdDcCcC4B  5CcDdEfGg tP5AgGfFaAg  AaGfFfGg  AgGfFaAg  AgGfFfGg"; //m63-70
+char *bumblebee9 = "tP5 AgGfGfFE  FfGgAaAg  AgGfFfGg  PAB6CDQEFEd tR6EdDcCFEd  EdDcCcDd   EdDcCFEd  EdDcCcDd"; //m71-78
+char *bumblebee10 = "tR6 E5gAaB6Cc  DcC5B6C5BaA  gAaB6CcDd  EFEdEFEd tR6E5gAaB6Cc  DcC5B6C5BaA  gAaB6CcDd  Q7EFEdPEfGg"; //m79-86
+char *bumblebee11 = "tO7 AgGfGfFE  FEdDcC6Ba 5AgGfGfFE  FEdDcC4Ba   AaPAgQagPag sO4AB5CD tEFPEdQFdPFd  sEteFeGDg sA.tO4EFfG PgAaB5CcDd"; //m88-96
+char *bumblebee12 = "tQ5 EFfGgAaB  R6CcQDdEPeFf  sOG.-  t4A5CEA6CEA/ s3A.- "; //m97-101
+

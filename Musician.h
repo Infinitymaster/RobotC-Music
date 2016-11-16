@@ -34,5 +34,18 @@ void PlayTune(char* title){
 		PlayPhrase(czardas3);
 		PlayPhrase(czardas4);
 		PlayPhrase(czardas5);
+	} else if(! strcmp(title, book[3])){
+		PlayTune(bumblebee1);
+		PlayTune(bumblebee2);
+		PlayTune(bumblebee3);
+		PlayTune(bumblebee4);
+		PlayTune(bumblebee5);
+		PlayTune(bumblebee6);
+		PlayTune(bumblebee7);
+		PlayTune(bumblebee8);
+		PlayTune(bumblebee9);
+		PlayTune(bumblebee10);
+		PlayTune(bumblebee11);
+		PlayTune(bumblebee12);
 	}
 }
